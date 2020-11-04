@@ -7,10 +7,10 @@ public class Hi{
     }
 
     private static void extracted() {
-        System.currentTimeMillis();
+        long temp = System.currentTimeMillis();
         String x = "Hi";
         System.out.println(x);
-        System.currentTimeMillis();
+        System.out.println(System.currentTimeMillis() - temp);
     }
     private static void ex(){
 
