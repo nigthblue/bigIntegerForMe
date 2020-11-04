@@ -1,7 +1,9 @@
 
 public class Hi{
 
-    public static void main(String arg[]){
+    private static final class ThreadExtension extends Thread {
+	}
+	public static void main(String arg[]){
         extracted();
         
     }
@@ -13,6 +15,6 @@ public class Hi{
         System.out.println(System.currentTimeMillis() - temp);
     }
     private static void ex(){
-
+        
     }
 }
